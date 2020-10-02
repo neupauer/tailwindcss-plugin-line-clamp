@@ -56,4 +56,16 @@ module.exports = {
   Sed pulvinar lobortis scelerisque. Ut a lectus metus. Morbi quam est,
   dignissim nec egestas quis, lacinia sit amet turpis.
 </p>
+
+<p class="line-clamp-3">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in purus mi.
+  Sed pulvinar lobortis scelerisque. Ut a lectus metus. Morbi quam est,
+  dignissim nec egestas quis, lacinia sit amet turpis.
+</p>
+
+<p class="line-clamp-4">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in purus mi.
+  Sed pulvinar lobortis scelerisque. Ut a lectus metus. Morbi quam est,
+  dignissim nec egestas quis, lacinia sit amet turpis.
+</p>
 ```

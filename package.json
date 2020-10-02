@@ -1,6 +1,6 @@
 {
   "name": "@neupauer/tailwindcss-plugin-line-clamp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Tailwind CSS plugin for line clamp.",
   "keywords": [
     "tailwind",

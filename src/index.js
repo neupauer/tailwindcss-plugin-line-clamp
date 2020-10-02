@@ -1,11 +1,15 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = plugin(
-  function ({ addUtilities, theme, variants, e }) {
+  function ({ addUtilities, theme, variants, e, target }) {
+    if (target("lineClamp") === "ie11") {
+      return;
+    }
+
     const clamps = theme("lineClamp", []);
 
     const utilities = (clamps || []).map((clamp) => ({
-      [`.${e(`line-clamp-${clamp}`)}`]: {
+      ["." + e(`line-clamp-${clamp}`)]: {
         display: "-webkit-box",
         "-webkit-line-clamp": `${clamp}`,
         "-webkit-box-orient": "vertical",
