@@ -1,3 +1,5 @@
+> Due to official TailwindCSS plugin, this package is no longer maintained, use https://github.com/tailwindlabs/tailwindcss-line-clamp instead
+
 # Tailwind CSS Plugin – Line Clamp
 
 ## Install
